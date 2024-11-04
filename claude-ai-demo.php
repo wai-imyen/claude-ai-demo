@@ -3,8 +3,8 @@
 require_once './load-env.php';
 
 $anthropicApiKey = getenv('ANTHROPIC_API_KEY');
-$model = getenv('MODEL');
-$maxTokens = getenv('MAX_TOKEN');
+$model = getenv('ANTHROPIC_MODEL');
+$maxTokens = getenv('ANTHROPIC_MAX_TOKEN');
 $messages = [
     [
         'role' => 'user',
